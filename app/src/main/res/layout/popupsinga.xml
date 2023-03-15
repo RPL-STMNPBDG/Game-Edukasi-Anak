@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:background="@drawable/bgpopuphewan"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:src="@drawable/cancel" />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="150dp"
+        android:layout_height="147dp"
+        android:layout_gravity="center"
+        android:src="@drawable/singa"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SINGA"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/suara"
+        android:layout_width="70dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sound" />
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu"
+    android:background="@drawable/backgroundfixbgt">
+
+        <Toolbar
+            android:background="@color/biru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:onClick="back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/backfix"
+                    android:layout_marginRight="11dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="BELAJAR BERSAMA PANPAN"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:onClick="info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/info"
+                    android:layout_marginLeft="45dp"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+        </Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="200dp"
+            android:background="@drawable/bordered"
+            android:backgroundTint="@color/biru"
+            android:drawableTop="@drawable/numbersfix"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:text="ANGKA"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="angka"/>
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bordered"
+            android:backgroundTint="@color/biru"
+            android:drawableTop="@drawable/blocksfix"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:text="HURUF"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="huruf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="200dp"
+            android:background="@drawable/bordered"
+            android:backgroundTint="@color/biru"
+            android:drawableTop="@drawable/animalsfix"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:text="HEWAN"
+            android:onClick="hewan"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+
+            />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bordered"
+            android:backgroundTint="@color/biru"
+            android:drawableTop="@drawable/fruitsfix"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:text="BUAH"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="buah"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
